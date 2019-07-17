@@ -1,17 +1,7 @@
 {
-  "name": "heroku-static-monorepo-ui-storybook",
-  "scripts": {},
-  "env": {
-    "PROJECT_PATH": {
-      "required": true
-    }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [],
+  "addons": [
+
+  ],
   "buildpacks": [
     {
       "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
@@ -23,5 +13,18 @@
       "url": "https://github.com/hone/heroku-buildpack-static"
     }
   ],
+  "env": {
+    "PROJECT_PATH": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "heroku-static-monorepo",
+  "scripts": {
+  },
   "stack": "heroku-18"
 }
