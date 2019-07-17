@@ -1,5 +1,5 @@
 {
-  "root": "storybook-static/",
+  "root": "build/",
   "routes": {
     "/**": "index.html"
   }
