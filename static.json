@@ -1,7 +1,0 @@
-{
-  "root": "storybook-static/",
-  "routes": {
-    "/**": "index.html"
-  },
-  "https_only": true
-}
