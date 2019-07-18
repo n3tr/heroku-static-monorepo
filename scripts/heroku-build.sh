@@ -14,6 +14,6 @@ fi
 
   cd $PROJECT_ROOT
 
-  yarn workspace ui build
+  yarn workspace ui build-storybook
   yarn workspace demo-app build
 )
