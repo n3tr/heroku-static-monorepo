@@ -13,6 +13,12 @@
   "env": {
     "PROJECT_PATH": {
       "required": true
+    },
+    "BASIC_AUTH_USERNAME": {
+      "required": true
+    },
+    "BASIC_AUTH_PASSWORD": {
+      "required": true
     }
   },
   "formation": {
