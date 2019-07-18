@@ -1,6 +1,8 @@
 {
   "root": "/public",
   "routes": {
-    "/*.html": "index.html"
+    "/**": "index.html",
+    "/demo-app/**": "/demo-pp/index.html",
+    "/ui-storybook/**": "/storybook-static/index.html"
   }
 }
