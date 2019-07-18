@@ -1,8 +1,6 @@
 {
-  "root": "/",
+  "root": "/public",
   "routes": {
-    "/*.html": "index.html",
-    "/ui-storybook/*.html": "/packages/ui/storybook-static/index.html",
-    "/demo-app/*.html": "/packages/demo-app/build/index.html"
+    "/*.html": "index.html"
   }
 }
