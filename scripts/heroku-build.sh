@@ -14,8 +14,8 @@ fi
 
   cd $PROJECT_ROOT
 
-  # yarn workspace ui build-storybook
-  # yarn workspace demo-app build
+  yarn workspace ui build-storybook
+  yarn workspace demo-app build
 
   mv packages/ui/storybook-static public/storybook-static
   mv packages/demo-app/build public/demo-app/
