@@ -1,0 +1,7 @@
+{
+  "root": "/",
+  "routes": {
+    "/ui-storybook/**": "/packages/ui/storybook-static/index.html",
+    "/demo-app/**": "/packages/demo-app/build/index.html"
+  }
+}
